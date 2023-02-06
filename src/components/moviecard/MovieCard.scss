@@ -1,0 +1,39 @@
+@import "../../common/colors.scss";
+
+
+.card-container{
+    background-color: $secondary-color;
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.5s all;
+    cursor: pointer;
+
+    &:hover{
+        transform: scale(1.05);
+        transition: 0.5s all;
+    }
+}
+    
+
+.movie-poster{
+    img{
+        height: 320px;
+        width: 250px;
+        border-radius: 10px;
+        transition: 0.5s all;
+    }
+}
+
+.movie-title{
+    height: 100px;
+    color: $font-primary;
+    h4{
+        font-size: 0.9rem;
+        font-weight: 300;
+    }
+    h5{
+        font-size: 0.8rem;
+        font-weight: 200;
+    }
+}

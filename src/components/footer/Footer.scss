@@ -1,0 +1,12 @@
+@import "../../common/colors.scss";
+
+.footer{
+    background-color: $secondary-color;
+    text-align: center;
+    padding: 5px 20px;
+}
+
+.footer,.footer h4{
+    color: $font-primary;
+    font-weight: 200;
+}
